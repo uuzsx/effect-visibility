@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="${mod_license}"
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="幼幼紫"
+logoFile="assets/effect_visibility/logo.png"
+description='''
+状态效果隐藏 / Effect Visibility
+作者：幼幼紫
+
+自由隐藏屏幕 HUD 和物品栏中的状态效果提示，让界面更清爽。支持隐藏全部效果、按名称或 ID 搜索并隐藏单个效果，以及一键重置隐藏。
+支持原版和模组注册的状态效果，设置列表自动排除 Xaero 地图模组的内部限制状态。
+只隐藏状态提示，实际效果、等级、持续时间和粒子保持原样。仅需安装在客户端，服务端无需安装。
+
+Choose which status effect indicators appear on your HUD and inventory. Hide all effects, search by name or ID to hide individual effects, or reset your selection.
+Supports vanilla and registered mod effects. Xaero map restriction effects are excluded from the settings list.
+Client-side only. Gameplay effects, levels, durations, and particles remain unchanged.
+'''
+[[mixins]]
+config="effect_visibility.mixins.json"
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="CLIENT"

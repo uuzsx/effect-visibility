@@ -1,0 +1,16 @@
+{
+  "key.category.effect_visibility.main": "状态效果隐藏",
+  "key.effect_visibility.settings": "打开效果隐藏设置",
+  "effect_visibility.title": "状态效果隐藏",
+  "effect_visibility.summary": "已隐藏 %s 个效果，实际效果仍然生效",
+  "effect_visibility.all_summary": "全部效果已隐藏，实际效果仍然生效",
+  "effect_visibility.hide_all": "隐藏全部效果：%s",
+  "effect_visibility.reset": "重置隐藏",
+  "effect_visibility.search": "搜索效果名称或 ID",
+  "effect_visibility.hidden": "%s：隐藏",
+  "effect_visibility.visible": "%s：显示",
+  "effect_visibility.all_tip": "关闭“隐藏全部效果”后，可切换单个效果。",
+  "effect_visibility.save": "保存并返回",
+  "effect_visibility.empty": "没有匹配的效果",
+  "effect_visibility.page": "%s / %s 页（%s 个效果）"
+}

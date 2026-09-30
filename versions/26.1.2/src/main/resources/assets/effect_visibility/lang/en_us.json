@@ -1,0 +1,16 @@
+{
+  "key.category.effect_visibility.main": "Effect Visibility",
+  "key.effect_visibility.settings": "Open effect visibility settings",
+  "effect_visibility.title": "Effect Visibility",
+  "effect_visibility.summary": "%s effects hidden; gameplay effects remain active",
+  "effect_visibility.all_summary": "All effects hidden; gameplay effects remain active",
+  "effect_visibility.hide_all": "Hide all effects: %s",
+  "effect_visibility.reset": "Reset hiding",
+  "effect_visibility.search": "Search by effect name or ID",
+  "effect_visibility.hidden": "%s: Hidden",
+  "effect_visibility.visible": "%s: Shown",
+  "effect_visibility.all_tip": "Turn off Hide all effects to toggle individual effects.",
+  "effect_visibility.save": "Save and return",
+  "effect_visibility.empty": "No matching effects",
+  "effect_visibility.page": "%s / %s  (%s effects)"
+}

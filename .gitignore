@@ -1,0 +1,15 @@
+.gradle/
+build/
+out/
+bin/
+run/
+run-smoke/
+.idea/
+*.iml
+*.log
+__pycache__/
+inspection/
+work-inspection/
+.classpath
+.project
+.settings/

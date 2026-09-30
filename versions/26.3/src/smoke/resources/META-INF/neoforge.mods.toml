@@ -1,0 +1,6 @@
+license="MIT"
+[[mods]]
+modId="effect_visibility_smoke"
+version="1"
+displayName="Effect Visibility development smoke test"
+description="Development-only client verification; excluded from release jars."
